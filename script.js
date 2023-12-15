@@ -54,12 +54,12 @@ const  calculate = () =>{
         if(percentage >=39.5)
         {
 
-            document.querySelector("#showdata").innerHTML = `out of 400, your total is ${totalgrades} and percentage is  ${percentage}.00%  Your garde is ${grades}. You Passed.`; 
+            document.querySelector("#showdata").innerHTML = `Out of 400, your total is ${totalgrades} and percentage is  ${percentage}.00%  Your garde is ${grades}. You Passed.`; 
         }
 
         else{
 
-            document.querySelector("#showdata").innerHTML  = `out of 400, your total is ${totalgrades} and percentage is  ${percentage}.00% Your garde is ${grades}. You Fail.`; 
+            document.querySelector("#showdata").innerHTML  = `Out of 400, your total is ${totalgrades} and percentage is  ${percentage}.00% Your garde is ${grades}. You Fail.`; 
         }
 
     }
